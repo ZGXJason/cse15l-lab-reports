@@ -11,8 +11,6 @@ Since `cd` is executed without any arguments, the user is still returned to the 
 
 There is no any error in this case. 
 
-
-
 **cd with a path to a directory as an argument**
 
 ![Image](cd2.png)
@@ -23,8 +21,6 @@ Since the `cd` is used to switch the current working directory to the given path
 
 There is no any error in this case.
 
-
-
 **cd with a path to a file as an argument**
 
 ![Image](cd3.png)
@@ -32,8 +28,6 @@ There is no any error in this case.
 The working directory when the command was run is the home directory `/`
 
 There is a not a directory error in this case, since `cd` is used to switch the directory to another directory. However, a file itself cannot be considered as a directory. Therefore, there would not be an output. 
-
-
 
 ## `ls`
 **ls with no argument**
@@ -46,3 +40,22 @@ Since the `ls` list the files and folders the given path, and the given path is 
 
 There is no error in this case. 
 
+**ls with a path to a directory as an argument**
+
+![Image](ls2.png)
+
+The working directory when the command was run is the home directory `/`
+
+Since the given path is `/home/lecture1`, the output would be the files and folders under lecture1.
+
+There is no error in this case. 
+
+**ls with a path to a file as an argument**
+
+![Image](ls3.png)
+
+The working directory when the command was run is the home directory `/`
+
+Since the given path is '/home/lecture1/Hello.java', the output would be Hello.java
+
+There is no error in this case. 

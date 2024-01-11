@@ -59,3 +59,35 @@ The working directory when the command was run is the home directory `/`
 Since the given path is '/home/lecture1/Hello.java', the output would be Hello.java
 
 There is no error in this case. 
+
+## `cat`
+
+**cat with no argument**
+
+![Image](cat1.png)
+
+The working directory when the command was run is the home directory `/`
+
+Since cat is used to print the contents of files given by the path and the path is a directory, there wouldn't be any output
+
+There is no error
+
+**cat with a path to a directory as an argument**
+
+![Image](cat2.png)
+
+The working directory when the command was run is the home directory `/`
+
+Also because the given path leads to a directory, there is no output.
+
+There is no error.
+
+**cat with a path to a file as an argument**
+
+![Image](cat3.png)
+
+The working directory when the command was run is the home directory `/`
+
+Since the given path leads to a very specific file called Hello.java, the output would be the all content in that file.
+
+There is no error in this case 

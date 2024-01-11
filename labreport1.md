@@ -12,6 +12,7 @@ Since `cd` is executed without any arguments, the user is still returned to the 
 There is no any error in this case. 
 
 
+
 **cd with a path to a directory as an argument**
 
 ![Image](cd2.png)
@@ -22,6 +23,8 @@ Since the `cd` is used to switch the current working directory to the given path
 
 There is no any error in this case.
 
+
+
 **cd with a path to a file as an argument**
 
 ![Image](cd3.png)
@@ -29,6 +32,8 @@ There is no any error in this case.
 The working directory when the command was run is the home directory `/`
 
 There is a not a directory error in this case, since `cd` is used to switch the directory to another directory. However, a file itself cannot be considered as a directory. Therefore, there would not be an output. 
+
+
 
 ## `ls`
 **ls with no argument**

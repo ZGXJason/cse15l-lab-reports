@@ -4,7 +4,7 @@
 
 ![Image](cd1.png)
 
-
+ 
 The working directory is the home directory, which is usually represented by `/`
  
 Since `cd` is executed without any arguments, the user is still returned to the home directory. 

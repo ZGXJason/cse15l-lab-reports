@@ -27,7 +27,7 @@ There is no any error in this case.
 
 The working directory when the command was run is the home directory `/`
 
-There is a not a directory error in this case, since `cd` is used to switch the directory to another directory. However, a file itself cannot be considered as a directory. Therefore, there would not be an output. 
+There is an error, since the file cannot be considered as a directory. 
 
 ## `ls`
 **ls with no argument**
@@ -78,9 +78,7 @@ There is no error
 
 The working directory when the command was run is the home directory `/`
 
-Also because the given path leads to a directory, there is no output.
-
-There is no error.
+There is an error, since this directory is not a file. 
 
 **cat with a path to a file as an argument**
 

@@ -5,7 +5,7 @@
 ![Image](cd1.png)
 
   
-The working directory is the home directory, which is usually represented by `/`
+The working directory is the home directory, which is usually represented by `/home`
  
 Since `cd` is executed without any arguments, the user is still returned to the home directory. 
 
@@ -15,7 +15,7 @@ There is no any error in this case.
 
 ![Image](cd2.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 Since the `cd` is used to switch the current working directory to the given path, the output should show that the working directory becomes ~/lecture1
 
@@ -25,7 +25,7 @@ There is no any error in this case.
 
 ![Image](cd3.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 There is an error, since the file cannot be considered as a directory. 
 
@@ -34,7 +34,7 @@ There is an error, since the file cannot be considered as a directory.
 
 ![Image](ls1.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 Since the `ls` list the files and folders the given path, and the given path is home directory, the output would be the only folder "lecture1" under the given path. 
 
@@ -44,7 +44,7 @@ There is no error in this case.
 
 ![Image](ls2.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 Since the given path is `/home/lecture1`, the output would be the files and folders under lecture1.
 
@@ -54,9 +54,9 @@ There is no error in this case.
 
 ![Image](ls3.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
-Since the given path is '/home/lecture1/Hello.java', the output would be Hello.java
+Since the given path is `/home/lecture1/Hello.java`, the output would be Hello.java
 
 There is no error in this case. 
 
@@ -66,7 +66,7 @@ There is no error in this case.
 
 ![Image](cat1.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 Since cat is used to print the contents of files given by the path and the path is a directory, there wouldn't be any output
 
@@ -76,7 +76,7 @@ There is no error
 
 ![Image](cat2.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 There is an error, since this directory is not a file. 
 
@@ -84,7 +84,7 @@ There is an error, since this directory is not a file.
 
 ![Image](cat3.png)
 
-The working directory when the command was run is the home directory `/`
+The working directory when the command was run is the home directory `/home`
 
 Since the given path leads to a very specific file called Hello.java, the output would be the all content in that file.
 

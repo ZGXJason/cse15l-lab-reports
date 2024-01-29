@@ -4,8 +4,8 @@
 
 `import java.net.URI;`
 
-class CHandler implements URLHandler {
-    String chatHistory = "";
+`class CHandler implements URLHandler {
+    String chatHistory = "";`
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {

@@ -1,7 +1,7 @@
 # lab report 2
 ## part 1 
-`import java.io.IOException;
-import java.net.URI;
+`import java.io.IOException;`
+`import java.net.URI;`
 
 class CHandler implements URLHandler {
     String chatHistory = "";
@@ -25,7 +25,7 @@ class CHandler implements URLHandler {
     }
 }
 
-class ChatServer {
+`class ChatServer {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("Missing port number! Try any number between 1024 to 49151");

@@ -2,8 +2,8 @@
 ## part 1 
 the code of the CharServer is shown below:
 
+```
 import java.io.IOException;
-
 import java.net.URI;
 
 class CHandler implements URLHandler {
@@ -39,6 +39,13 @@ class ChatServer {
         Server.start(port, new CHandler());
     }
 }
+```
+The first task
+![Image](labreport2.5.png)
+
+The second task
+![Image](labreport2.6.png)
+
 
 ## part 2 
 The absolute path to the private key

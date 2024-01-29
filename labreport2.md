@@ -1,10 +1,12 @@
 # lab report 2
 ## part 1 
-`import java.io.IOException;`
+the code of the CharServer is shown below:
 
-`import java.net.URI;`
+import java.io.IOException;
 
-`class CHandler implements URLHandler {
+import java.net.URI;
+
+class CHandler implements URLHandler {
     String chatHistory = "";`
 
     public String handleRequest(URI url) {
@@ -26,7 +28,7 @@
     }
 }
 
-`class ChatServer {
+class ChatServer {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -36,7 +38,8 @@
         int port = Integer.parseInt(args[0]);
         Server.start(port, new CHandler());
     }
-}`
+}
+
 ## part 2 
 The absolute path to the private key
 ![Image](labreport2.1.png)

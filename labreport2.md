@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.net.URI;
 
 class CHandler implements URLHandler {
-    String chatHistory = "";`
+    String Information = "";`
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
@@ -20,9 +20,9 @@ class CHandler implements URLHandler {
                 user = params[1].substring(params[1].indexOf('=') + 1).replace("+", " ");
             }
             if (user != null && message != null) {
-                chatHistory += user + ": " + message + "\n";
+                Information += user + ": " + message + "\n";
             }
-            return chatHistory;
+            return Information;
         }
         return "Invalid request";
     }
@@ -43,13 +43,12 @@ class ChatServer {
 The first task:
 ![Image](labreport2.5.png) <br>
 the method that is called would be `public String handleRequest(URI url)`
-the relevant argument would be the `url (http://localhost:4158/add-message?s=Hello&user=jpolitz)`. Moreover, I have created several fields `chatHistory`, `query`, `user`, `message`, `params`. Since the values of these fields are totally depended on the argument I put in, the value of them would definitely changed. In this case, `user` is updated to `jpolitz`, `message` is updated to `Hello`. Also, since `chatHistory` is composed by `message` and `user`, the `chatHistory` is updated to `jpolitz: Hello`, which is the return value of this method and can be seen from the screenshot.
+the relevant argument would be the `url (http://localhost:4158/add-message?s=Hello&user=jpolitz)`. Moreover, I have created several fields `Information`, `query`, `user`, `message`, `params`. Since the values of these fields are totally depended on the argument I put in, the value of them would definitely changed. In this case, `user` is updated to `jpolitz`, `message` is updated to `Hello`. Also, since `Information` is composed by `message` and `user`, the `Information` is updated to `jpolitz: Hello`, which is the return value of this method and can be seen from the screenshot.
 
 The second task:
 ![Image](labreport2.6.png) <br>
 the method that is called would still be `public String handleRequest(URI url)`
-the relevant argument would be the `url(http://localhost:4158/add-message?s=How are you&user=yash)`. The names of the fields are the same. However, the value of them would be change. First of all, the `user` would be changed to `yash` and the `message` would be changed to `How are you`. Since the `chatHistory += user + ": " + message + "\n";`, the previous 'jpolitz: Hello' will be preserved and 'yash: How are you' will be added to the 'chatHistory'. Therefore, the final value of 'chatHistory' would be `jpolitz: Hello
-/n yash: How are you`
+the relevant argument would be the `url(http://localhost:4158/add-message?s=How are you&user=yash)`. The names of the fields are the same. However, the value of them would be change. First of all, the `user` would be changed to `yash` and the `message` would be changed to `How are you`. Since the `Information += user + ": " + message + "\n";`, the previous 'jpolitz: Hello' will be preserved and 'yash: How are you' will be added to the 'Information'. Therefore, the final value of 'Information' would be `jpolitz: Hello /n yash: How are you`
 
 ## part 2 
 The absolute path to the private key <br>

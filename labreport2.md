@@ -48,7 +48,7 @@ the relevant argument would be the `url (http://localhost:4158/add-message?s=Hel
 The second task:
 ![Image](labreport2.6.png) <br>
 the method that is called would still be `public String handleRequest(URI url)`
-the relevant argument would be the `url(http://localhost:4158/add-message?s=How are you&user=yash)`. The names of the fields are the same. However, the value of them would be change. First of all, the `user` would be changed to `yash` and the `message` would be changed to `How are you`. Since the `Information += user + ": " + message + "\n";`, the previous 'jpolitz: Hello' will be preserved and 'yash: How are you' will be added to the 'Information'. Therefore, the final value of 'Information' would be `jpolitz: Hello /n yash: How are you`
+the relevant argument would be the `url(http://localhost:4158/add-message?s=How are you&user=yash)`. The names of the fields are the same. However, the value of them would be change. First of all, the `user` would be changed to `yash` and the `message` would be changed to `How are you`. Since the `Information += user + ": " + message + "\n";`, the previous `jpolitz: Hello` will be preserved and `yash: How are you` will be added to the 'Information'. Therefore, the final value of `Information` would be `jpolitz: Hello /n yash: How are you`
 
 ## part 2 
 The absolute path to the private key <br>

@@ -54,8 +54,8 @@ the relevant argument would be the `url(http://localhost:4158/add-message?s=How 
 The absolute path to the private key <br>
 ![Image](labreport2.1.png)
 
-The absolute path to the public key <br>
-![Image](labreport2.2.png)
+The absolute path to the public key on `@ieng6`'s file system <br>
+![Image](labreport2.redo.png)
 
 A terminal interaction where I log into my  `ieng6` accout without being asked for a password <br>
 ![Image](labreport2.3.png)

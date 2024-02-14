@@ -210,12 +210,13 @@ This example is used to find all the files under `./technical` that have the pat
 <br>
 <br>
 <br>
-citation: the prompt I gave to ChatGPT: <br>
+## Citation: the prompt I gave to ChatGPT: <br>
+<br>
 most common 5 command-line options for "find" except name.<br>
 the outputs shows the four options I include in this report and `atime`. However, I don't really understand the `atime`. So, I choose another 4. <br>
 <br>
 explain more clearly about how to use `-regex`<br>
-Since I don't really understand the brief introduction about the option given by chat-GPT, I asked it to provide more detailed explanation 
+Since I don't really understand the brief introduction about the option given by chat-GPT, I asked it to provide more detailed explanation<br> 
 <br>
 explain more about the `-maxdepth`.<br>
 Since I don't know the exact meaning of maxdepth, I asked gpt to give me a very comprehensive definition about it. 

@@ -210,7 +210,7 @@ This example is used to find all the files under `./technical` that have the pat
 <br>
 <br>
 <br>
-## Citation: the prompt I gave to ChatGPT: <br>
+Citation: the prompt I gave to ChatGPT: <br>
 <br>
 most common 5 command-line options for "find" except name.<br>
 the outputs shows the four options I include in this report and `atime`. However, I don't really understand the `atime`. So, I choose another 4. <br>

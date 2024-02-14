@@ -12,7 +12,7 @@
 <br>
 
 2. An input that doesn't induce a failure <br>
-`int[] input1 = {};` would not lead to a failure, the specific code for JUnit test is shown below <br>
+`int[] input1 = {};` would not lead to a failure, since the input array is empty array. The specific code for JUnit test is shown below <br>
 
 ```
 @Test
@@ -26,7 +26,7 @@
 3. The symptom, as the output of running the tests <br>
 ![image](labreport3.1.png) <br>
 
-the message shows that the first element for the expected array would be 3, but it was 0.
+the message shows that the first element for the expected array would be 3, but it was 0. In this way, we can say that the code doesn't reverse the array like we expect. 
 
 4. The bug, as the before-and-after code change required to fix it <br>
 
@@ -211,7 +211,14 @@ This example is used to find all the files under `./technical` that have the pat
 <br>
 <br>
 citation: the prompt I gave to ChatGPT: <br>
-most common  command-line options for "find" except name. 
+most common 5 command-line options for "find" except name.<br>
+the outputs shows the four options I include in this report and `atime`. However, I don't really understand the `atime`. So, I choose another 4. <br>
+<br>
+explain more clearly about how to use `-regex`<br>
+Since I don't really understand the brief introduction about the option given by chat-GPT, I asked it to provide more detailed explanation 
+<br>
+explain more about the `-maxdepth`.<br>
+Since I don't know the exact meaning of maxdepth, I asked gpt to give me a very comprehensive definition about it. 
 
 
    

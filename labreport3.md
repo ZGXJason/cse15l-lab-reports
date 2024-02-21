@@ -1,7 +1,7 @@
 # labreport 3
 ## Part 1: bug
 1. failed-inducing <br>
- `int[] input1 = new int[]{1, 2, 3};` would lead to a failure, the specific code for JUnit test is shown below <br>
+ `int[] input1 = new int[]{1, 2, 3};` would lead to a failure, since the output for the `arr` is just a copy of the `newArray`(whose elements are only 0) instead of the reversed one. The specific code for JUnit test is shown below <br>
  ```
   @Test
   public void testReversed1() {
@@ -54,7 +54,8 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-Since in the previous code with bug, it actually return an array with all elements are 0 instead of the reversed array. After changing the last two lines of the code, it return a new array which is the reversed array of the input array. <br>
+Since in the previous code with bug, it actually return an array with all elements are 0 instead of the reversed array. I switch the position of `newArray` with `arr` in the for loop. I put `newArray` in the left, and `arr` in the right. Now, the for loop would assign the element in `arr` into `newArray` in a reverse order correctly.
+<br>
 
 ## Part 2 - Researching Commands <br>
 1. `-type` <br>

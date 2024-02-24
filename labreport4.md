@@ -15,4 +15,21 @@ key pressed:<br>
 `bash<space>te<tab>`<br>
 In order to run the test, I have to first change my directory to the `lab7`, and that is the reason I pressed `cd<space>la<tab><enter>`. Since there is only one directory begin with letter `la`, I only need to press `la` then press `<tab>`. After that, in order to find the file for the test, I have to list all the files, that is the reason I pressed `ls<enter>`. Then, in order to run the test, I pressed `bash<space>te<tab>`. Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the test would run, and show there is an error.<br>
 ## step 7
+![image4](labreport4.4.png)
+![image5](labreport4.5.png)
+![image6](labreport4.6.png)<br>
+key pressed: <br>
+`vim ListExamples.java`<br>
+This command line is used to open the `ListExamples.java` file in the terminal.<br>
+`i`<br>
+This is used to change to insert mode which can allow us to change the code in the terminal. <br>
+After that, we can located to the last `while` loop, and change the `index1` to `index2`. Then pressed `esc` to change to normal mode.<br>
+`:wq`<br>
+This is used to save our change in that file and quit to the terminal<br>
+## step 8
+![image7](labreport4.7.png)<br>
+key pressed:<br>
+`bash<space>te<tab><enter>`.<br>
+Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the result shows all tests passed.<br>
+## step 9
 

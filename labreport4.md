@@ -19,7 +19,7 @@ In order to run the test, I have to first change my directory to the `lab7`, and
 ![image5](labreport4.5.png)
 ![image6](labreport4.6.png)<br>
 key pressed: <br>
-`vim ListExamples.java`<br>
+`vim<space>ListExamples.java<enter>`<br>
 This command line is used to open the `ListExamples.java` file in the terminal.<br>
 `i`<br>
 This is used to change to insert mode which can allow us to change the code in the terminal. <br>
@@ -32,4 +32,13 @@ key pressed:<br>
 `bash<space>te<tab><enter>`.<br>
 Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the result shows all tests passed.<br>
 ## step 9
+![image8](labreport4.9.png)<br>
+key pressed:<br>
+`git<space>add<space>.<enter>`<br>
+In order to add all change, `.` can help us to do that. <br> 
+`git<space>commit<space>-m<space>"my own commit"<enter>`<br>
+Commit all the change and make the commit message as "my own commit".<br>
+`git<space>push<space>origin<space>main<enter>`<br>
+Since the `lab7` is in the `main` branch on my github, I added `origin<space>mian` after the `git<space>push<space>` to do that. 
+
 

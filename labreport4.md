@@ -13,7 +13,7 @@ key pressed:<br>
 `cd<space>la<tab><enter>`<br>
 `ls<enter>`<br>
 `bash<space>te<tab>`<br>
-In order to run the test, I have to first change my directory to the `lab7`, and that is the reason I pressed `cd<space>la<tab><enter>`. Since there is only one directory begin with letter `la`, I only need to press `la` then press `<tab>`. After that, in order to find the file for the test, I have to list all the files, that is the reason I pressed `ls<enter>`. Then, in order to run the test, I pressed `bash<space>te<tab>`. Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the test would run, and show there is an error.<br>
+In order to run the test, I have to first change my directory to the `lab7`, and that is the reason I pressed `cd<space>la<tab><enter>`. Since there is only one directory begin with letter `la`, I only need to press `la` then press `<tab>`. After that, in order to find the file for the test, I have to list all the files, that is the reason I pressed `ls<enter>`. Then, in order to run the test, I pressed `bash<space>te<tab>`. Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the test would run, and show that one test fails which means there is a bug in my code.<br>
 ## step 7
 ![image4](labreport4.4.png)
 ![image5](labreport4.5.png)
@@ -24,21 +24,21 @@ This command line is used to open the `ListExamples.java` file in the terminal.<
 `i`<br>
 This is used to change to insert mode which can allow us to change the code in the terminal. <br>
 After that, we can located to the last `while` loop, and change the `index1` to `index2`. Then pressed `esc` to change to normal mode.<br>
-`:wq`<br>
-This is used to save our change in that file and quit to the terminal<br>
+`:wq<enter>`<br>
+This is used to save our change in that file and back to the terminal<br>
 ## step 8
 ![image7](labreport4.7.png)<br>
 key pressed:<br>
 `bash<space>te<tab><enter>`.<br>
-Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>`. After that, the result shows all tests passed.<br>
+Also, since there is only one file begin with letter `te`, I only need to press `bash<space>te<tab><enter>` in order to run the test again. After that, the result shows all tests passed.<br>
 ## step 9
 ![image8](labreport4.9.png)<br>
 key pressed:<br>
 `git<space>add<space>.<enter>`<br>
-In order to add all change, `.` can help us to do that. <br> 
+In order to add all changes and save them, `add<space>.` can help us to do that. <br> 
 `git<space>commit<space>-m<space>"my own commit"<enter>`<br>
 Commit all the change and make the commit message as "my own commit".<br>
 `git<space>push<space>origin<space>main<enter>`<br>
-Since the `lab7` is in the `main` branch on my github, I added `origin<space>mian` after the `git<space>push<space>` to do that. 
+Since the `lab7` is in the `main` branch on my github, I added `origin<space>mian` after the `git<space>push<space>` to push the commited changes to my own GitHub. 
 
 

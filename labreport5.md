@@ -20,4 +20,9 @@ The content of each file before fixing the bug:<br>
 `ListExamples.java`<br>
 ![image](labreport5.5.png) <br>
 `test.sh`
+![image](labreport5.7.png) <br>
+The description of fixing the bug:<br>
+Change `index+=1` in the final while loop to `index+=2` to properly add elements from `list2` to the result arraylist and keep the loop from running indefinitely.
 
+## part 2
+The most useful thing I learned was how the gradescope operates internally. GradeScope uses scripts/shell files with meaningful command lines to evaluate student code and assign scores based on its behavior. I'm not sure how Gradscope tests our code and assigns us grades before we attend lectures and labs (I initially assumed instructors were using magical commands or were behind the screen manually running our codes). Knowing how it works gave me a better understanding of how my programming assignments are evaluated, as well as inspiration for creating meaningful and effective test cases on my own. It's great to understand the entire process behind the scenes.

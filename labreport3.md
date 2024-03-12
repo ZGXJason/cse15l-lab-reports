@@ -25,7 +25,7 @@
 
 3. The symptom, as the output of running the tests <br>
 ![image](labreport3.1.png) <br>
-
+![image](labreport5.1.png) <br>
 the message shows that the first element for the expected array would be 3, but it was 0. In this way, we can say that the code doesn't reverse the array like we expect. 
 
 4. The bug, as the before-and-after code change required to fix it <br>

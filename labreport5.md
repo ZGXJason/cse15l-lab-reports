@@ -13,3 +13,11 @@ The third while loop in the original code tries to add the remaining elements fr
 <br>
 Setup:<br>
 The file & directory structure needed are in lab7:<br>
+![image](labreport5.3.png) <br>
+The content of each file before fixing the bug:<br>
+`ListExamplesTests.java`<br>
+![image](labreport5.4.png) <br>
+`ListExamples.java`<br>
+![image](labreport5.5.png) <br>
+`test.sh`
+
